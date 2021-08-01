@@ -1,0 +1,25 @@
+.wrapper{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  text-align: center;
+
+  IMG{
+    width: 400px;
+    height: auto;
+  }
+
+  BUTTON{
+    width: 180px;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #1976d2;
+    color: #eeeeee;
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
+    padding: 10px 20px;
+  }
+}
