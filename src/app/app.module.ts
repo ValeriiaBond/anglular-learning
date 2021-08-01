@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { Post2Component } from './post2/post2.component';
 import {Post4Component} from "./post4/post4.component";
 import { PostTrainingComponent } from './post-training/post-training.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PostTrainingComponent } from './post-training/post-training.component';
     PostTrainingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
