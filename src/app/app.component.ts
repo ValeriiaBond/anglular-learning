@@ -12,5 +12,5 @@ export class AppComponent {
     this.title = event.target.value
   }
 
-  toggle = false
+  toggle: any = false
 }
