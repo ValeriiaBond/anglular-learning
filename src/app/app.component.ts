@@ -12,5 +12,5 @@ export class AppComponent {
     this.title = event.target.value
   }
 
-  backgroundToggle = false
+  toggle = false
 }
